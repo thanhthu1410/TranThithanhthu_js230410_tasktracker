@@ -21,7 +21,7 @@ export default function ListTasks() {
   useEffect(() => {
     axios.get("http://localhost:3000/tasks")
       .then(res => setListTask(res.data))
-  })
+  },[])
   return (
     <>
 

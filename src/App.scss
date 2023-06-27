@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+  
+
+    .Layout {
+        
+        margin: 70px auto;
+        width: 550px;
+        height: auto;
+        padding: 30px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid;
+        border-radius: 10px;
+
+
+        .headerContainer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin: 20px auto;
+
+            button {
+                border: none;
+                padding: 5px 10px;
+                border-radius: 8px;
+                
+            }
+
+            .addButton {
+                background-color: rgb(191, 59, 59);
+                color: #fff;
+                padding: 10px;
+            }
+
+            .closeButton {
+                background-color: rgb(20, 129, 20);
+                color: #fff;
+                padding: 10px;
+            }
+
+        }
+
+        .form {
+            input {
+                width: 100%;
+                padding: 7px;
+                outline: none;
+                margin: 8px auto;
+            }
+
+            button {
+                width: 100%;
+                padding: 10px;
+                background-color: black;
+                color: #fff;
+                border-radius: 6px;
+            }
+
+            .checkboxInput {
+                display: flex;
+                align-items: center;
+                margin: 10px;
+            }
+        }
+
+        .ContainerListTask{
+            margin: 20px auto;
+            .renderTask {
+                width: 100%;
+                margin: 15px auto;
+                list-style: none;
+                background-color: #f0f7ff;
+                padding: 10px;
+                border-radius: 8px;
+                display: flex;
+                align-items: center;
+                .detailTask{
+                    width: 90%;
+                }
+                .markcontainer{
+                    width: 10%;
+                }
+            }
+        }
+       
+
+
+
+    }
+}

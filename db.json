@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "task": "Work from home",
+      "date": "2023-06-28",
+      "checkReminder": true,
+      "id": 2
+    },
+    {
+      "task": "Shopping",
+      "date": "2023-06-29",
+      "checkReminder": false,
+      "id": 3
+    }
+  ]
+}

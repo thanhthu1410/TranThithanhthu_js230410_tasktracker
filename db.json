@@ -7,12 +7,6 @@
       "id": 2
     },
     {
-      "task": "Shopping",
-      "date": "2023-06-29",
-      "checkReminder": false,
-      "id": 3
-    },
-    {
       "task": "Eat ",
       "date": "2023-06-30",
       "checkReminder": false,

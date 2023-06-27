@@ -46,7 +46,7 @@ export default function Body() {
                     <span>Reminder</span>
                     <input type="checkbox" checked={isReminder} onChange={handleCheckBox} />
                 </div>
-                <button onClick={() => newTask !== "" || date !== "" ? addTask(newTask, date, isReminder
+                <button onClick={() => newTask !== "" && date !== "" ? addTask(newTask, date, isReminder
                     ) : alert("Enter Task and Time")}>Save Task</button>
 
             </form>) : (<div></div>)}

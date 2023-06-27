@@ -23,7 +23,6 @@ export default function About() {
             <h3>What do you think about my project ?</h3>
             <textarea  style={{width:"400px",resize:"none",padding:"15px"}} name="" id="" cols="30" rows="5" value={comment} placeholder='Enter comments....' onChange={(e)=>setComments(e.target.value)}></textarea> <br></br>
             <button onClick={handleSend} style={{padding:"10px 20px",background:"black",color:"#fff"}}>Send</button>
-           
             <div style={{marginTop:"20px"}}>
                 <h4>List comments:</h4>
                 {listComments.map((item)=>
